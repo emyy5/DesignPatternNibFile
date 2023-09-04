@@ -14,6 +14,11 @@
 		910537052A326A7400C5E8BE /* DesignPatternNibFile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 910537032A326A7400C5E8BE /* DesignPatternNibFile.xcdatamodeld */; };
 		910537072A326A7600C5E8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910537062A326A7600C5E8BE /* Assets.xcassets */; };
 		9105370A2A326A7600C5E8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910537082A326A7600C5E8BE /* LaunchScreen.storyboard */; };
+		910537122A326B2F00C5E8BE /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910537112A326B2F00C5E8BE /* MyTableViewController.swift */; };
+		910537172A326B8E00C5E8BE /* MyyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910537152A326B8E00C5E8BE /* MyyTableViewCell.swift */; };
+		910537182A326B8E00C5E8BE /* MyyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910537162A326B8E00C5E8BE /* MyyTableViewCell.xib */; };
+		9105371A2A3272C700C5E8BE /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910537192A3272C700C5E8BE /* MyView.swift */; };
+		9105371C2A3272E800C5E8BE /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9105371B2A3272E800C5E8BE /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		910537062A326A7600C5E8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		910537092A326A7600C5E8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9105370B2A326A7600C5E8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910537112A326B2F00C5E8BE /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		910537152A326B8E00C5E8BE /* MyyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyyTableViewCell.swift; sourceTree = "<group>"; };
+		910537162A326B8E00C5E8BE /* MyyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyyTableViewCell.xib; sourceTree = "<group>"; };
+		910537192A3272C700C5E8BE /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		9105371B2A3272E800C5E8BE /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 				910537082A326A7600C5E8BE /* LaunchScreen.storyboard */,
 				9105370B2A326A7600C5E8BE /* Info.plist */,
 				910537032A326A7400C5E8BE /* DesignPatternNibFile.xcdatamodeld */,
+				910537112A326B2F00C5E8BE /* MyTableViewController.swift */,
+				910537152A326B8E00C5E8BE /* MyyTableViewCell.swift */,
+				910537162A326B8E00C5E8BE /* MyyTableViewCell.xib */,
+				910537192A3272C700C5E8BE /* MyView.swift */,
+				9105371B2A3272E800C5E8BE /* View.xib */,
 			);
 			path = DesignPatternNibFile;
 			sourceTree = "<group>";
@@ -129,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9105370A2A326A7600C5E8BE /* LaunchScreen.storyboard in Resources */,
+				9105371C2A3272E800C5E8BE /* View.xib in Resources */,
 				910537072A326A7600C5E8BE /* Assets.xcassets in Resources */,
 				910537022A326A7400C5E8BE /* Main.storyboard in Resources */,
+				910537182A326B8E00C5E8BE /* MyyTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9105371A2A3272C700C5E8BE /* MyView.swift in Sources */,
 				910536FF2A326A7400C5E8BE /* ViewController.swift in Sources */,
 				910536FB2A326A7400C5E8BE /* AppDelegate.swift in Sources */,
 				910537052A326A7400C5E8BE /* DesignPatternNibFile.xcdatamodeld in Sources */,
+				910537172A326B8E00C5E8BE /* MyyTableViewCell.swift in Sources */,
+				910537122A326B2F00C5E8BE /* MyTableViewController.swift in Sources */,
 				910536FD2A326A7400C5E8BE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
